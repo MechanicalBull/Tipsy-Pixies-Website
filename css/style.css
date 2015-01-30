@@ -477,7 +477,6 @@ p {
     padding-top:15px;
 }
 .service p {
-    padding:0px 50px;
     height:60px;
 }
 .service img {
@@ -962,6 +961,18 @@ p {
 }
 }
 @media (max-width: 767px) {
+.brand .biglogo {
+		display: none;
+		}
+.brand .smalllogo {
+	display: block;
+}
+.da-slider .triangle {
+	display:none;
+}
+.da-slider {
+	display:none;
+}
     .info-mail {
         width:90%;
         padding:15px 0px;
