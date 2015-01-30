@@ -61,6 +61,10 @@ p {
 	display:none;
 }
 
+.mobilebg {
+	display:none;
+}
+
 .navbar-fixed-top .smalllogo {
 	display:block;
 }
@@ -855,6 +859,10 @@ p {
 .black {
     color:#181A1C;
 }
+
+.container .row-fluid .span6 h3 {
+	font-size:20px;
+}
 /*
 3.8 Footer
 ********************************************************************/
@@ -983,7 +991,11 @@ p {
     .price-column, .testimonial {
         margin-top:30px; 
 }
-.navbar . brand {
+.navbar .brand {
 	position:relative;
+}
+.mobilebg {
+	display:block;
+	height:300px;
 }
 }
