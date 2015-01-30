@@ -995,7 +995,8 @@ p {
 	position:relative;
 }
 .mobilebg {
+	background: #000000 url(../images/mobilebg.png) no-repeat center;
 	display:block;
-	height:300px;
+	height:511px;
 }
 }
